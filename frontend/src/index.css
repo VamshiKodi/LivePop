@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased overflow-x-hidden selection:bg-accent selection:text-white;
+  }
+  .dark body {
+    @apply bg-dark text-white selection:text-black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
+  }
+  .border-glow {
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.15);
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-xl border border-gray-200 shadow-xl;
+  }
+  .dark .glass-card {
+    @apply bg-white/5 border-white/10 shadow-2xl;
+  }
+  .glass-nav {
+    @apply bg-white/80 backdrop-blur-md border-b border-gray-200;
+  }
+  .dark .glass-nav {
+    @apply bg-dark/70 border-white/5;
+  }
+}
+
+/* Print Mode Styles */
+@media print {
+  nav, .no-print, button, .glass-nav {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .glass-card {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
