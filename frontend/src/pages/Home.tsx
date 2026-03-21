@@ -275,26 +275,42 @@ const Home: React.FC = () => {
             <HeroCounter population={population} isConnected={isConnected} />
 
             <motion.section
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8, duration: 0.8 }}
-                className="w-full max-w-7xl px-4 py-12"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-80px' }}
+                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                className="w-full max-w-7xl px-4 py-12 relative"
             >
+                {/* Ambient section glow */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-accent/5 blur-[100px] rounded-full pointer-events-none -z-10" />
+
                 <div className="flex flex-col md:flex-row justify-between items-end gap-4 mb-8 border-b border-white/5 pb-6">
-                    <h3 className="text-[10px] font-black tracking-[0.4em] text-accent uppercase border-l-2 border-accent pl-4 mb-2 md:mb-0">
+                    <motion.h3
+                        initial={{ opacity: 0, x: -16 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, ease: 'easeOut' }}
+                        className="text-[10px] font-black tracking-[0.4em] text-accent uppercase border-l-2 border-accent pl-4 mb-2 md:mb-0"
+                    >
                         Global Directory ({filteredCountries.length} Regions)
-                    </h3>
-                    <SearchWithAutocomplete
-                        suggestions={FALLBACK_COUNTRIES.map(c => c.name)}
-                        value={searchQuery}
-                        onChange={setSearchQuery}
-                        placeholder="SEARCH REGION..."
-                    />
+                    </motion.h3>
+                    <motion.div
+                        initial={{ opacity: 0, x: 16 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
+                    >
+                        <SearchWithAutocomplete
+                            suggestions={FALLBACK_COUNTRIES.map(c => c.name)}
+                            value={searchQuery}
+                            onChange={setSearchQuery}
+                            placeholder="SEARCH REGION..."
+                        />
+                    </motion.div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                     {!isConnected && filteredCountries.length === 0 ? (
-                        // Loading skeletons
                         Array.from({ length: 10 }).map((_, i) => (
                             <CountryCardSkeleton key={i} />
                         ))

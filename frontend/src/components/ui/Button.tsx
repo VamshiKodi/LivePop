@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import type { HTMLMotionProps } from 'framer-motion';
 
-interface ButtonProps extends HTMLMotionProps<"button"> {
+interface ButtonProps extends HTMLMotionProps<'button'> {
     variant?: 'primary' | 'secondary' | 'outline';
     size?: 'sm' | 'md' | 'lg';
     glow?: boolean;
@@ -17,25 +17,31 @@ const Button: React.FC<ButtonProps> = ({
     glow = true,
     ...props
 }) => {
-    const baseStyles = "relative px-6 py-2 rounded-lg font-semibold tracking-wide overflow-hidden group transition-all duration-300 flex items-center justify-center gap-2";
+    const baseStyles =
+        'relative px-6 py-2 rounded-lg font-semibold tracking-wide overflow-hidden group transition-all duration-300 flex items-center justify-center gap-2';
 
     const variants = {
-        primary: "bg-accent text-black hover:bg-white",
-        secondary: "bg-gray-800 text-white hover:bg-gray-700 border border-gray-700",
-        outline: "bg-transparent border border-accent text-accent hover:bg-accent/10"
+        primary: 'bg-accent text-black hover:bg-white',
+        secondary: 'bg-gray-800 text-white hover:bg-gray-700 border border-gray-700',
+        outline: 'bg-transparent border border-accent text-accent hover:bg-accent/10',
     };
 
     const sizes = {
-        sm: "text-sm",
-        md: "text-base",
-        lg: "text-lg px-8 py-3"
+        sm: 'text-sm',
+        md: 'text-base',
+        lg: 'text-lg px-8 py-3',
     };
+
+    const glowClass = glow
+        ? 'shadow-[0_0_15px_rgba(0,242,255,0.3)] hover:shadow-[0_0_28px_rgba(0,242,255,0.65)]'
+        : '';
 
     return (
         <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className} ${glow ? 'shadow-[0_0_15px_rgba(0,242,255,0.3)] hover:shadow-[0_0_25px_rgba(0,242,255,0.6)]' : ''}`}
+            whileHover={{ scale: 1.04, y: -2 }}
+            whileTap={{ scale: 0.96, y: 0 }}
+            transition={{ type: 'spring', stiffness: 400, damping: 18 }}
+            className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${glowClass} ${className}`}
             {...props}
         >
             <span className="relative z-10">{children}</span>

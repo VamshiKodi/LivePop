@@ -7,8 +7,11 @@ interface AnimatedNumberProps {
 }
 
 const AnimatedNumber: React.FC<AnimatedNumberProps> = ({ value, className }) => {
-    const spring = useSpring(value, { mass: 0.8, stiffness: 75, damping: 15 });
-    const displayValue = useTransform(spring, (current) => Math.round(current).toLocaleString());
+    // Snappier ease-out: higher stiffness, appropriate damping
+    const spring = useSpring(value, { mass: 0.6, stiffness: 120, damping: 28 });
+    const displayValue = useTransform(spring, (current) =>
+        Math.round(current).toLocaleString()
+    );
 
     useEffect(() => {
         spring.set(value);

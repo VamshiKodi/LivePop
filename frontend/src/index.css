@@ -4,6 +4,71 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================
+   KEYFRAMES
+   ============================================================ */
+
+@keyframes pulse-glow {
+  0%, 100% {
+    text-shadow: 0 0 15px rgba(0, 198, 255, 0.45), 0 0 40px rgba(0, 198, 255, 0.15);
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(0, 198, 255, 0.8), 0 0 80px rgba(0, 198, 255, 0.3), 0 0 120px rgba(0, 114, 255, 0.2);
+    opacity: 0.95;
+  }
+}
+
+@keyframes float-up-fade {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-48px);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes live-blink {
+  0%, 100% { opacity: 1; }
+  40%, 60% { opacity: 0.1; }
+}
+
+@keyframes glow-border-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 198, 255, 0); }
+  50% { box-shadow: 0 0 0 3px rgba(0, 198, 255, 0.18), 0 0 20px rgba(0, 198, 255, 0.12); }
+}
+
+@keyframes scroll-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes green-pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  50% { box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.25), 0 0 12px rgba(16, 185, 129, 0.15); }
+}
+
+@keyframes red-pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+  50% { box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25), 0 0 12px rgba(239, 68, 68, 0.15); }
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
 @layer base {
   body {
     @apply bg-gray-50 text-gray-900 font-sans antialiased overflow-x-hidden selection:bg-accent selection:text-white;
@@ -16,49 +81,103 @@
   }
 }
 
+/* ============================================================
+   UTILITIES
+   ============================================================ */
 @layer utilities {
+  /* --- Glow Text --- */
   .text-glow {
+    animation: pulse-glow 2.5s ease-in-out infinite;
+  }
+
+  /* --- Static glow (no animation) --- */
+  .text-glow-static {
     text-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
   }
+
+  /* --- Border / box glow --- */
   .border-glow {
-    box-shadow: 0 0 20px rgba(0, 198, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.2), 0 0 1px rgba(0, 198, 255, 0.4);
   }
+
+  .border-glow-pulse {
+    animation: glow-border-pulse 2.5s ease-in-out infinite;
+  }
+
+  /* --- Cards --- */
   .glass-card {
     @apply bg-white/80 backdrop-blur-xl border border-gray-200 shadow-xl;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
   }
   .dark .glass-card {
     @apply bg-white/5 border-white/10 shadow-2xl;
   }
+  .dark .glass-card:hover {
+    border-color: rgba(0, 198, 255, 0.25);
+    box-shadow: 0 0 0 1px rgba(0, 198, 255, 0.15), 0 8px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 198, 255, 0.08);
+  }
+
+  /* --- Navbar --- */
   .glass-nav {
     @apply bg-white/80 backdrop-blur-md border-b border-gray-200;
   }
   .dark .glass-nav {
     @apply bg-dark/70 border-white/5;
   }
+
+  /* --- Shimmer effect (for loading or accent states) --- */
+  .shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.06) 50%, transparent 100%);
+    background-size: 200% auto;
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* --- Float up badge animation --- */
+  .float-up-fade {
+    animation: float-up-fade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  /* --- Live indicator blink --- */
+  .live-blink {
+    animation: live-blink 1.5s ease-in-out infinite;
+  }
+
+  /* --- Growth glow dots --- */
+  .growth-positive {
+    animation: green-pulse-ring 2s ease-in-out infinite;
+  }
+  .growth-negative {
+    animation: red-pulse-ring 2s ease-in-out infinite;
+  }
+
+  /* --- Scroll reveal --- */
+  .scroll-reveal {
+    animation: scroll-reveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 30%;
+  }
 }
 
-/* Print Mode Styles */
+/* ============================================================
+   PRINT
+   ============================================================ */
 @media print {
   nav, .no-print, button, .glass-nav {
     display: none !important;
   }
-  
   body {
     background: white !important;
     color: black !important;
   }
-  
   .glass-card {
     background: white !important;
     border: 1px solid #ddd !important;
     box-shadow: none !important;
     page-break-inside: avoid;
   }
-  
   .print-only {
     display: block !important;
   }
-  
   * {
     text-shadow: none !important;
     box-shadow: none !important;
