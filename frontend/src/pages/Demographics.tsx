@@ -4,17 +4,28 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, AreaChart, Area, XAx
 import { FaTimes } from 'react-icons/fa';
 import { PopulationService } from '../services/api';
 
+interface CountryData {
+    code: string;
+    name: string;
+    youth: number;
+    working: number;
+    elderly: number;
+    density: number;
+    pop: number;
+}
+
 const Demographics: React.FC = () => {
-    const [allCountries, setAllCountries] = useState<DemographicsData[]>([]);
+    const [allCountries, setAllCountries] = useState<CountryData[]>([]);
     const [searchQuery, setSearchQuery] = useState('');
-    const [selectedCountry, setSelectedCountry] = useState<DemographicsData | null>(null);
+    const [selectedCountry, setSelectedCountry] = useState<CountryData | null>(null);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const regions = await PopulationService.getAllRegions();
                 // Transform API data to current shape
-                const mappedData: DemographicsData[] = regions
+                const mappedData: CountryData[] = regions
                     .filter(r => r.demographics) // Only regions with demo data
                     .map(r => ({
                         code: r.code,
@@ -53,7 +64,7 @@ const Demographics: React.FC = () => {
     };
 
     // Generate projection data for modal
-    const getProjectionData = (country: DemographicsData) => {
+    const getProjectionData = (country: CountryData) => {
         const data = [];
         const growthRate = (country.youth - country.elderly) / 1000;
         let pop = country.pop * 0.85;
@@ -95,7 +106,10 @@ const Demographics: React.FC = () => {
             </div>
 
             {/* Countries Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {loading ? (
+                <div className="text-center py-12 text-cyan-400">Loading demographics...</div>
+            ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
                 {filteredCountries.map((country, idx) => {
                     const ages = [
                         { name: '0-14', value: country.youth, color: '#10b981' },
@@ -159,6 +173,7 @@ const Demographics: React.FC = () => {
                     );
                 })}
             </div>
+            )}
 
             {/* Legend */}
             <div className="mt-8 flex justify-center gap-6 text-sm flex-wrap">

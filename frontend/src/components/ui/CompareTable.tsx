@@ -71,7 +71,7 @@ export const CompareTable: React.FC<CompareTableProps> = ({ country1, country2 }
           </tr>
         </thead>
         <tbody>
-          {stats.map((stat, idx) => {
+          {stats.map((stat) => {
             const val1 = country1[stat.key as keyof typeof country1] as number || 0;
             const val2 = country2[stat.key as keyof typeof country2] as number || 0;
             const diff = val1 - val2;

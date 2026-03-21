@@ -127,7 +127,6 @@ const LeaderboardPage: React.FC = () => {
                         icon="🚀"
                         countries={data.topGrowing}
                         colorClass="text-green-400"
-                        borderColor="green"
                         delay={0.1}
                     />
                     <LeaderboardCard
@@ -135,7 +134,6 @@ const LeaderboardPage: React.FC = () => {
                         icon="👑"
                         countries={data.topPopulous}
                         colorClass="text-cyan-400"
-                        borderColor="cyan"
                         delay={0.2}
                     />
                     <LeaderboardCard
@@ -143,7 +141,6 @@ const LeaderboardPage: React.FC = () => {
                         icon="📉"
                         countries={data.topDeclining}
                         colorClass="text-red-400"
-                        borderColor="red"
                         delay={0.3}
                     />
                 </div>

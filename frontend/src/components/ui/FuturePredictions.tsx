@@ -1,12 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-interface PredictionData {
-  year: number;
-  population: number;
-  scenario: 'low' | 'medium' | 'high';
-}
-
 interface FuturePredictionsProps {
   countryName: string;
   currentPop: number;
