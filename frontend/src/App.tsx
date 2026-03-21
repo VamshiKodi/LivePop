@@ -12,6 +12,8 @@ import TimelinePage from './pages/Timeline';
 import BirthdayCalculatorPage from './pages/BirthdayCalculator';
 import DemographicsPage from './pages/Demographics';
 import DensityPage from './pages/Density';
+import AdminLogin from './pages/AdminLogin';
+import AdminDashboard from './pages/AdminDashboard';
 import { AnimatePresence } from 'framer-motion';
 
 const App: React.FC = () => {
@@ -31,6 +33,8 @@ const App: React.FC = () => {
             <Route path="demographics" element={<DemographicsPage />} />
             <Route path="density" element={<DensityPage />} />
             <Route path="about" element={<About />} />
+            <Route path="admin/login" element={<AdminLogin />} />
+            <Route path="admin/dashboard" element={<AdminDashboard />} />
           </Route>
         </Routes>
       </AnimatePresence>
