@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import { createAdminUser } from '../src/services/adminService';
 import Region from '../src/models/Region';
 import AdminUser from '../src/models/AdminUser';
+import HistoryItem from '../src/models/HistoryItem';
 import { logger } from '../src/utils/logger';
 
 dotenv.config();
@@ -67,6 +68,29 @@ const seedData = async () => {
         if (bulkOps.length > 0) {
             const result = await Region.bulkWrite(bulkOps);
             logger.info(`✅ Bulk seed complete! Matched: ${result.matchedCount}, Modified: ${result.modifiedCount}, Upserted: ${result.upsertedCount}`);
+        }
+
+        // Seed initial history items
+        const admin = await AdminUser.findOne({ username: 'admin' });
+        if (admin) {
+            const historyCount = await HistoryItem.countDocuments();
+            if (historyCount === 0) {
+                const initialHistory = regions.slice(0, 10).map((r: any) => ({
+                    regionCode: r.code,
+                    change: {
+                        baselinePopulation: r.baselinePopulation,
+                        baselineAt: r.baselineAt,
+                        birthsPerSec: r.birthsPerSec,
+                        deathsPerSec: r.deathsPerSec,
+                        migrationPerSec: r.migrationPerSec
+                    },
+                    changedBy: admin._id,
+                    changedAt: new Date(),
+                    note: 'Initial data seed'
+                }));
+                await HistoryItem.insertMany(initialHistory);
+                logger.info(`✅ Seeded ${initialHistory.length} initial history items`);
+            }
         }
 
         logger.info('🎉 Seed completed successfully!');
