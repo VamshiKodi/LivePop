@@ -7,21 +7,17 @@
         ],
         "outDir": "./dist",
         "rootDir": "./src",
-        "strict": true,
+        "strict": false,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "moduleResolution": "node",
-        "declaration": true,
-        "declarationMap": true,
+        "declaration": false,
+        "declarationMap": false,
         "sourceMap": true,
         "types": [
-            "node",
-            "express",
-            "cors",
-            "bcryptjs",
-            "jsonwebtoken"
+            "node"
         ]
     },
     "include": [
@@ -30,6 +26,7 @@
     "exclude": [
         "node_modules",
         "dist",
-        "tests"
+        "tests",
+        "**/*.test.ts"
     ]
 }

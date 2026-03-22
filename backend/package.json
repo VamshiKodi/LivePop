@@ -5,8 +5,8 @@
     "main": "dist/server.js",
     "scripts": {
         "dev": "nodemon src/server.ts",
-        "build": "echo 'Skipping build, using ts-node'",
-        "start": "npx ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
         "lint": "eslint src --ext .ts",
         "test": "jest",
         "seed": "ts-node ./seed/seed.ts"
@@ -22,16 +22,7 @@
         "joi": "^17.13.3",
         "jsonwebtoken": "^9.0.2",
         "mongoose": "^8.5.2",
-        "socket.io": "^4.7.5",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.5.2",
-        "@types/bcryptjs": "^2.4.6",
-        "@types/cors": "^2.8.17",
-        "@types/express": "^4.17.21",
-        "@types/jsonwebtoken": "^9.0.6",
-        "@types/node": "^20.14.9",
-        "@types/socket.io": "^3.0.2",
-        "@types/mongoose": "^5.11.97"
+        "socket.io": "^4.7.5"
     },
     "devDependencies": {
         "@types/bcryptjs": "^2.4.6",

@@ -16,7 +16,7 @@ const startServer = async () => {
         await connectDB();
 
         const { httpServer } = createApp();
-        const PORT = parseInt(process.env.PORT || '4000', 10);
+        const PORT = parseInt(process.env.PORT || '3000', 10);
 
         // Start HTTP server
         httpServer.listen(PORT, '0.0.0.0', () => {
