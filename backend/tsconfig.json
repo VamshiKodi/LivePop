@@ -17,7 +17,11 @@
         "declarationMap": true,
         "sourceMap": true,
         "types": [
-            "node"
+            "node",
+            "express",
+            "cors",
+            "bcryptjs",
+            "jsonwebtoken"
         ]
     },
     "include": [
