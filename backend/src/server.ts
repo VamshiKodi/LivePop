@@ -16,10 +16,10 @@ const startServer = async () => {
         await connectDB();
 
         const { httpServer } = createApp();
-        const PORT = process.env.PORT || 4000;
+        const PORT = parseInt(process.env.PORT || '4000', 10);
 
         // Start HTTP server
-        httpServer.listen(PORT, () => {
+        httpServer.listen(PORT, '0.0.0.0', () => {
             logger.info(`🚀 Server running on port ${PORT}`);
             logger.info(`📡 Socket.IO ready for connections`);
             logger.info(`🌍 CORS enabled for: ${process.env.CORS_ORIGIN}`);
