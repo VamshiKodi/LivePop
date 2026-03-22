@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nodemon src/server.ts",
         "build": "echo 'Skipping build, using ts-node'",
-        "start": "ts-node src/server.ts",
+        "start": "npx ts-node src/server.ts",
         "lint": "eslint src --ext .ts",
         "test": "jest",
         "seed": "ts-node ./seed/seed.ts"
