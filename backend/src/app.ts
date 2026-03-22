@@ -17,7 +17,7 @@ export const createApp = () => {
     // Initialize Socket.IO
     const io = new SocketIOServer(httpServer, {
         cors: {
-            origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+            origin: '*',
             methods: ['GET', 'POST'],
             credentials: true,
         },
@@ -25,7 +25,7 @@ export const createApp = () => {
 
     // Middleware
     app.use(cors({
-        origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+        origin: '*',
         credentials: true,
     }));
     app.use(express.json());
