@@ -4,6 +4,9 @@ import { sendError } from '../utils/responseHelpers';
 
 export interface AuthRequest extends Request {
     user?: any;
+    params: any;
+    body: any;
+    headers: any;
 }
 
 export const authMiddleware = (req: AuthRequest, res: Response, next: NextFunction) => {
