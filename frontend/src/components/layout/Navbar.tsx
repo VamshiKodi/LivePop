@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../ui/ThemeToggle';
+import EarthGlobe from '../ui/EarthGlobe';
 import clsx from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -31,15 +32,9 @@ const Navbar: React.FC = () => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    {/* Logo */}
-                    <Link to="/" className="flex items-center gap-3 group">
-                        <motion.div
-                            className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-dark font-black text-xl shadow-[0_0_20px_rgba(0,198,255,0.3)] group-hover:shadow-[0_0_32px_rgba(0,198,255,0.55)] transition-all"
-                            whileHover={{ scale: 1.07, rotate: 5 }}
-                            transition={{ type: 'spring', stiffness: 400, damping: 14 }}
-                        >
-                            L
-                        </motion.div>
+                    {/* Logo with 3D Globe */}
+                    <Link to="/" className="flex items-center gap-2 sm:gap-3 group">
+                        <EarthGlobe />
                         <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-accent to-accent2 group-hover:drop-shadow-[0_0_10px_rgba(0,198,255,0.55)] transition-all">
                             LivePop
                         </span>

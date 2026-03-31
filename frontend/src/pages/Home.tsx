@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeroCounter from '../components/home/HeroCounter';
 import CountryCard from '../components/ui/CountryCard';
 import { usePopulation } from '../hooks/usePopulation';
@@ -239,7 +239,32 @@ const FALLBACK_COUNTRIES: CountryData[] = [
 
 const Home: React.FC = () => {
     const { snapshot, isConnected } = usePopulation(['WORLD']);
-    const population = snapshot['WORLD']?.population;
+    
+    // Realistic fallback data
+    const BASE_POPULATION = 8100000000;
+    const GROWTH_PER_SEC = 2.4; // Average global growth
+    
+    const [localPopulation, setLocalPopulation] = useState<number>(() => {
+        // Initialize with a value based on the current time for realism
+        const now = new Date();
+        const startOfYear = new Date(now.getFullYear(), 0, 1);
+        const secondsSinceStart = (now.getTime() - startOfYear.getTime()) / 1000;
+        return BASE_POPULATION + Math.floor(secondsSinceStart * GROWTH_PER_SEC);
+    });
+
+    const population = snapshot['WORLD']?.population || localPopulation;
+    const isLive = !!snapshot['WORLD'];
+
+    // Fallback: If no socket data, increment a local counter
+    useEffect(() => {
+        let interval: any;
+        if (!isLive) {
+            interval = setInterval(() => {
+                setLocalPopulation(prev => prev + (Math.random() > 0.5 ? 3 : 2));
+            }, 1000);
+        }
+        return () => clearInterval(interval);
+    }, [isLive]);
 
     const [suggestedCountries, setSuggestedCountries] = React.useState<CountryData[]>(FALLBACK_COUNTRIES);
     const [searchQuery, setSearchQuery] = React.useState('');

@@ -12,21 +12,43 @@ validateEnv();
 
 const startServer = async () => {
     try {
-        // Connect to MongoDB
-        await connectDB();
+        // Connect to MongoDB with timeout handling
+        logger.info('Connecting to MongoDB...');
+        try {
+            await connectDB();
+        } catch (dbError) {
+            logger.error('Initial MongoDB connection failed, but starting server anyway to provide fallback data.');
+        }
 
         const { httpServer } = createApp();
-        const PORT = parseInt(process.env.PORT || '3000', 10);
+        const DEFAULT_PORT = parseInt(process.env.PORT || '4000', 10);
+        
+        const listen = (port: number): Promise<number> => {
+            return new Promise((resolve, reject) => {
+                const server = httpServer.listen(port, '0.0.0.0', () => {
+                    logger.info(`🚀 Server running on port ${port}`);
+                    logger.info(`📡 Socket.IO ready for connections`);
+                    logger.info(`🌍 CORS enabled for: ${process.env.CORS_ORIGIN || '*'}`);
+                    resolve(port);
+                });
 
-        // Start HTTP server
-        httpServer.listen(PORT, '0.0.0.0', () => {
-            logger.info(`🚀 Server running on port ${PORT}`);
-            logger.info(`📡 Socket.IO ready for connections`);
-            logger.info(`🌍 CORS enabled for: ${process.env.CORS_ORIGIN}`);
-        });
+                server.on('error', (err: any) => {
+                    if (err.code === 'EADDRINUSE') {
+                        logger.warn(`⚠️ Port ${port} is already in use. Trying next port...`);
+                        server.close();
+                        resolve(listen(port + 1));
+                    } else {
+                        reject(err);
+                    }
+                });
+            });
+        };
+
+        await listen(DEFAULT_PORT);
     } catch (error) {
         logger.error('Failed to start server:', error);
-        process.exit(1);
+        // Don't exit immediately, let the logger finish
+        setTimeout(() => process.exit(1), 1000);
     }
 };
 

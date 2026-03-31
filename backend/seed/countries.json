@@ -1,2771 +1,2784 @@
 [
   {
+    "code": "WORLD",
+    "name": "World",
+    "baselinePopulation": 8240000000,
+    "baselineAt": "2026-03-29T09:20:42.180Z",
+    "birthsPerSec": 4.2,
+    "deathsPerSec": 1.8,
+    "migrationPerSec": 0,
+    "meta": {
+      "source": "LivePop Global Index",
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
+    }
+  },
+  {
     "code": "IN",
     "name": "India",
     "baselinePopulation": 1463865525,
-    "baselineAt": "2025-12-12T11:02:41.480Z",
-    "birthsPerSec": 0.664,
-    "deathsPerSec": 0.4014,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.6585,
+    "deathsPerSec": 0.3569,
     "migrationPerSec": -0.07319,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "CN",
     "name": "China",
     "baselinePopulation": 1416096094,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.8285,
-    "deathsPerSec": 0.3851,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.8039,
+    "deathsPerSec": 0.3638,
     "migrationPerSec": -0.0708,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "US",
     "name": "United States",
     "baselinePopulation": 347275807,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.1557,
-    "deathsPerSec": 0.095,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1555,
+    "deathsPerSec": 0.1115,
     "migrationPerSec": 0.03473,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "ID",
     "name": "Indonesia",
     "baselinePopulation": 285721236,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.1406,
-    "deathsPerSec": 0.0658,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1414,
+    "deathsPerSec": 0.0702,
     "migrationPerSec": -0.01429,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "PK",
     "name": "Pakistan",
     "baselinePopulation": 255219554,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.1228,
-    "deathsPerSec": 0.0657,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1218,
+    "deathsPerSec": 0.0601,
     "migrationPerSec": -0.01276,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "NG",
     "name": "Nigeria",
     "baselinePopulation": 237527782,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.3121,
-    "deathsPerSec": 0.0717,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.2622,
+    "deathsPerSec": 0.0667,
     "migrationPerSec": -0.02375,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "BR",
     "name": "Brazil",
     "baselinePopulation": 212812405,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0985,
-    "deathsPerSec": 0.055,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.09,
+    "deathsPerSec": 0.0501,
     "migrationPerSec": -0.01064,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "BD",
     "name": "Bangladesh",
     "baselinePopulation": 175686899,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0709,
-    "deathsPerSec": 0.0406,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0768,
+    "deathsPerSec": 0.0452,
     "migrationPerSec": -0.00878,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "RU",
     "name": "Russia",
     "baselinePopulation": 144000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.037,
-    "deathsPerSec": 0.0527,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0454,
+    "deathsPerSec": 0.051,
     "migrationPerSec": 0.0144,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "ET",
     "name": "Ethiopia",
     "baselinePopulation": 135000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.1562,
-    "deathsPerSec": 0.0377,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1578,
+    "deathsPerSec": 0.037,
     "migrationPerSec": -0.0135,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "MX",
     "name": "Mexico",
     "baselinePopulation": 132000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0593,
-    "deathsPerSec": 0.0376,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0572,
+    "deathsPerSec": 0.0372,
     "migrationPerSec": 0.0132,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "JP",
     "name": "Japan",
     "baselinePopulation": 123000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0606,
-    "deathsPerSec": 0.0332,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0588,
+    "deathsPerSec": 0.0288,
     "migrationPerSec": -0.00615,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "EG",
     "name": "Egypt",
     "baselinePopulation": 118000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.1203,
-    "deathsPerSec": 0.034,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1354,
+    "deathsPerSec": 0.0353,
     "migrationPerSec": -0.0118,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "PH",
     "name": "Philippines",
     "baselinePopulation": 117000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0483,
-    "deathsPerSec": 0.0307,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0618,
+    "deathsPerSec": 0.0295,
     "migrationPerSec": -0.00585,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "CD",
     "name": "DR Congo",
     "baselinePopulation": 113000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.145,
-    "deathsPerSec": 0.0354,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.1065,
+    "deathsPerSec": 0.0336,
     "migrationPerSec": -0.0113,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "VN",
     "name": "Vietnam",
     "baselinePopulation": 102000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0469,
-    "deathsPerSec": 0.0247,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.043,
+    "deathsPerSec": 0.0248,
     "migrationPerSec": -0.0051,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "IR",
     "name": "Iran",
     "baselinePopulation": 92000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0455,
-    "deathsPerSec": 0.022,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0372,
+    "deathsPerSec": 0.0252,
     "migrationPerSec": -0.0046,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "TR",
     "name": "Turkey",
     "baselinePopulation": 88000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0369,
-    "deathsPerSec": 0.0202,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0441,
+    "deathsPerSec": 0.0231,
     "migrationPerSec": -0.0044,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "DE",
     "name": "Germany",
     "baselinePopulation": 84000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0249,
-    "deathsPerSec": 0.0286,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0223,
+    "deathsPerSec": 0.0276,
     "migrationPerSec": 0.0084,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "TH",
     "name": "Thailand",
     "baselinePopulation": 72000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0413,
-    "deathsPerSec": 0.0184,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0344,
+    "deathsPerSec": 0.017,
     "migrationPerSec": -0.0036,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "TZ",
     "name": "Tanzania",
     "baselinePopulation": 71000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0753,
-    "deathsPerSec": 0.0221,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0636,
+    "deathsPerSec": 0.0232,
     "migrationPerSec": -0.0071,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "GB",
     "name": "United Kingdom",
     "baselinePopulation": 70000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.024,
-    "deathsPerSec": 0.0236,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0225,
+    "deathsPerSec": 0.0263,
     "migrationPerSec": 0.007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "FR",
     "name": "France",
     "baselinePopulation": 67000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0209,
-    "deathsPerSec": 0.0219,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0177,
+    "deathsPerSec": 0.0252,
     "migrationPerSec": 0.0067,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "ZA",
     "name": "South Africa",
     "baselinePopulation": 65000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0854,
-    "deathsPerSec": 0.0203,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0848,
+    "deathsPerSec": 0.0182,
     "migrationPerSec": -0.0065,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "IT",
     "name": "Italy",
     "baselinePopulation": 59000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0185,
-    "deathsPerSec": 0.0216,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0184,
+    "deathsPerSec": 0.0205,
     "migrationPerSec": 0.0059,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "KE",
     "name": "Kenya",
     "baselinePopulation": 58000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0541,
-    "deathsPerSec": 0.0159,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0754,
+    "deathsPerSec": 0.0162,
     "migrationPerSec": -0.0058,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "MM",
     "name": "Myanmar",
     "baselinePopulation": 55000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0243,
-    "deathsPerSec": 0.015,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0259,
+    "deathsPerSec": 0.0147,
     "migrationPerSec": -0.00275,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "CO",
     "name": "Colombia",
     "baselinePopulation": 53000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0271,
-    "deathsPerSec": 0.0132,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0308,
+    "deathsPerSec": 0.0137,
     "migrationPerSec": -0.00265,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "SD",
     "name": "Sudan",
     "baselinePopulation": 52000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0543,
-    "deathsPerSec": 0.0142,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.054,
+    "deathsPerSec": 0.016,
     "migrationPerSec": -0.0052,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "KR",
     "name": "South Korea",
     "baselinePopulation": 52000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0244,
-    "deathsPerSec": 0.0133,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0214,
+    "deathsPerSec": 0.0129,
     "migrationPerSec": -0.0026,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "UG",
     "name": "Uganda",
     "baselinePopulation": 51000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0475,
-    "deathsPerSec": 0.0158,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0477,
+    "deathsPerSec": 0.016,
     "migrationPerSec": -0.0051,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "ES",
     "name": "Spain",
     "baselinePopulation": 48000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0147,
-    "deathsPerSec": 0.0168,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0163,
+    "deathsPerSec": 0.0167,
     "migrationPerSec": 0.0048,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "DZ",
     "name": "Algeria",
     "baselinePopulation": 47000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0438,
-    "deathsPerSec": 0.0154,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0439,
+    "deathsPerSec": 0.0143,
     "migrationPerSec": -0.0047,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "IQ",
     "name": "Iraq",
     "baselinePopulation": 47000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0272,
-    "deathsPerSec": 0.0119,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.026,
+    "deathsPerSec": 0.0114,
     "migrationPerSec": -0.00235,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "AR",
     "name": "Argentina",
     "baselinePopulation": 46000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0215,
-    "deathsPerSec": 0.011,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0268,
+    "deathsPerSec": 0.0123,
     "migrationPerSec": -0.0023,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.182Z"
     }
   },
   {
     "code": "AF",
     "name": "Afghanistan",
     "baselinePopulation": 44000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0249,
-    "deathsPerSec": 0.0105,
+    "baselineAt": "2026-03-29T09:20:42.182Z",
+    "birthsPerSec": 0.0247,
+    "deathsPerSec": 0.0103,
     "migrationPerSec": -0.0022,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CA",
     "name": "Canada",
     "baselinePopulation": 41000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0162,
-    "deathsPerSec": 0.012,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.015,
+    "deathsPerSec": 0.0122,
     "migrationPerSec": 0.0041,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MA",
     "name": "Morocco",
     "baselinePopulation": 40000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0448,
-    "deathsPerSec": 0.0111,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0391,
+    "deathsPerSec": 0.0125,
     "migrationPerSec": -0.004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AO",
     "name": "Angola",
     "baselinePopulation": 39000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0411,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0509,
     "deathsPerSec": 0.011,
     "migrationPerSec": -0.0039,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SA",
     "name": "Saudi Arabia",
     "baselinePopulation": 37000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0186,
-    "deathsPerSec": 0.0091,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0165,
+    "deathsPerSec": 0.0084,
     "migrationPerSec": -0.00185,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PL",
     "name": "Poland",
     "baselinePopulation": 37000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0124,
-    "deathsPerSec": 0.0129,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0089,
+    "deathsPerSec": 0.0126,
     "migrationPerSec": 0.0037,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "UA",
     "name": "Ukraine",
     "baselinePopulation": 37000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0119,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0092,
     "deathsPerSec": 0.0122,
     "migrationPerSec": 0.0037,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "UZ",
     "name": "Uzbekistan",
     "baselinePopulation": 36000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.018,
-    "deathsPerSec": 0.0085,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.016,
+    "deathsPerSec": 0.0094,
     "migrationPerSec": -0.0018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PE",
     "name": "Peru",
     "baselinePopulation": 35000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0182,
-    "deathsPerSec": 0.008,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0164,
+    "deathsPerSec": 0.0084,
     "migrationPerSec": -0.00175,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MY",
     "name": "Malaysia",
     "baselinePopulation": 35000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0176,
-    "deathsPerSec": 0.0082,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0143,
+    "deathsPerSec": 0.0083,
     "migrationPerSec": -0.00175,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "YE",
     "name": "Yemen",
     "baselinePopulation": 34000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0165,
-    "deathsPerSec": 0.0084,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0166,
+    "deathsPerSec": 0.0092,
     "migrationPerSec": -0.0017,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GH",
     "name": "Ghana",
     "baselinePopulation": 34000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0409,
-    "deathsPerSec": 0.0098,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.033,
+    "deathsPerSec": 0.0109,
     "migrationPerSec": -0.0034,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MZ",
     "name": "Mozambique",
     "baselinePopulation": 34000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.041,
-    "deathsPerSec": 0.0092,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0395,
+    "deathsPerSec": 0.0099,
     "migrationPerSec": -0.0034,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MG",
     "name": "Madagascar",
     "baselinePopulation": 33000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0414,
-    "deathsPerSec": 0.0101,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0318,
+    "deathsPerSec": 0.0096,
     "migrationPerSec": -0.0033,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "VE",
     "name": "Venezuela",
     "baselinePopulation": 33000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0192,
-    "deathsPerSec": 0.0075,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0164,
+    "deathsPerSec": 0.0086,
     "migrationPerSec": -0.00165,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CM",
     "name": "Cameroon",
     "baselinePopulation": 30000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0281,
-    "deathsPerSec": 0.009,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0302,
+    "deathsPerSec": 0.0089,
     "migrationPerSec": -0.003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CI",
     "name": "Côte d'Ivoire",
     "baselinePopulation": 30000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0365,
-    "deathsPerSec": 0.0084,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0311,
+    "deathsPerSec": 0.0088,
     "migrationPerSec": -0.003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NP",
     "name": "Nepal",
     "baselinePopulation": 31000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0141,
-    "deathsPerSec": 0.0076,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0151,
+    "deathsPerSec": 0.0084,
     "migrationPerSec": -0.00155,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KP",
     "name": "North Korea",
     "baselinePopulation": 26000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0134,
-    "deathsPerSec": 0.0061,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0106,
+    "deathsPerSec": 0.0062,
     "migrationPerSec": -0.0013,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AU",
     "name": "Australia",
     "baselinePopulation": 27000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0129,
-    "deathsPerSec": 0.0074,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0153,
+    "deathsPerSec": 0.0072,
     "migrationPerSec": 0.0027,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NE",
     "name": "Niger",
     "baselinePopulation": 27918000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0322,
-    "deathsPerSec": 0.0078,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.033,
+    "deathsPerSec": 0.009,
     "migrationPerSec": -0.00279,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TW",
     "name": "Taiwan",
     "baselinePopulation": 23113000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.012,
-    "deathsPerSec": 0.0054,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0099,
+    "deathsPerSec": 0.0063,
     "migrationPerSec": -0.00116,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "ML",
     "name": "Mali",
     "baselinePopulation": 25199000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0235,
-    "deathsPerSec": 0.0075,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0316,
+    "deathsPerSec": 0.0078,
     "migrationPerSec": -0.00252,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BF",
     "name": "Burkina Faso",
     "baselinePopulation": 24075000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0281,
-    "deathsPerSec": 0.0069,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0272,
+    "deathsPerSec": 0.0079,
     "migrationPerSec": -0.00241,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LK",
     "name": "Sri Lanka",
     "baselinePopulation": 23229000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0098,
-    "deathsPerSec": 0.0058,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0117,
+    "deathsPerSec": 0.0056,
     "migrationPerSec": -0.00116,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "RO",
     "name": "Romania",
     "baselinePopulation": 18909000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0051,
-    "deathsPerSec": 0.0061,
+    "deathsPerSec": 0.0067,
     "migrationPerSec": 0.00189,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CL",
     "name": "Chile",
     "baselinePopulation": 19600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0103,
-    "deathsPerSec": 0.005,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0113,
+    "deathsPerSec": 0.0052,
     "migrationPerSec": -0.00098,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MW",
     "name": "Malawi",
     "baselinePopulation": 21000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0192,
-    "deathsPerSec": 0.0067,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0224,
+    "deathsPerSec": 0.0059,
     "migrationPerSec": -0.0021,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KZ",
     "name": "Kazakhstan",
     "baselinePopulation": 20000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0088,
-    "deathsPerSec": 0.0053,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0117,
+    "deathsPerSec": 0.0048,
     "migrationPerSec": -0.001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "ZM",
     "name": "Zambia",
     "baselinePopulation": 20000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0221,
-    "deathsPerSec": 0.0058,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0229,
+    "deathsPerSec": 0.0059,
     "migrationPerSec": -0.002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GT",
     "name": "Guatemala",
     "baselinePopulation": 18000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0067,
-    "deathsPerSec": 0.0052,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0064,
+    "deathsPerSec": 0.0058,
     "migrationPerSec": 0.0018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "EC",
     "name": "Ecuador",
     "baselinePopulation": 18000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0077,
-    "deathsPerSec": 0.0043,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0087,
+    "deathsPerSec": 0.0048,
     "migrationPerSec": -0.0009,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SY",
     "name": "Syria",
     "baselinePopulation": 23000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0093,
-    "deathsPerSec": 0.0056,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0133,
+    "deathsPerSec": 0.0063,
     "migrationPerSec": -0.00115,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NL",
     "name": "Netherlands",
     "baselinePopulation": 17900000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0045,
-    "deathsPerSec": 0.0057,
+    "deathsPerSec": 0.0068,
     "migrationPerSec": 0.00179,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SN",
     "name": "Senegal",
     "baselinePopulation": 18000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0197,
-    "deathsPerSec": 0.0051,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0236,
+    "deathsPerSec": 0.0054,
     "migrationPerSec": -0.0018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KH",
     "name": "Cambodia",
     "baselinePopulation": 17000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0082,
-    "deathsPerSec": 0.0045,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0073,
+    "deathsPerSec": 0.0042,
     "migrationPerSec": -0.00085,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TD",
     "name": "Chad",
     "baselinePopulation": 18000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0179,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0224,
     "deathsPerSec": 0.0056,
     "migrationPerSec": -0.0018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SO",
     "name": "Somalia",
     "baselinePopulation": 18000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0236,
-    "deathsPerSec": 0.0051,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0222,
+    "deathsPerSec": 0.0058,
     "migrationPerSec": -0.0018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "ZW",
     "name": "Zimbabwe",
     "baselinePopulation": 16000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0206,
-    "deathsPerSec": 0.0044,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0159,
+    "deathsPerSec": 0.005,
     "migrationPerSec": -0.0016,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GN",
     "name": "Guinea",
     "baselinePopulation": 14000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0176,
-    "deathsPerSec": 0.0042,
+    "deathsPerSec": 0.004,
     "migrationPerSec": -0.0014,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "RW",
     "name": "Rwanda",
     "baselinePopulation": 14000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0148,
-    "deathsPerSec": 0.004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0184,
+    "deathsPerSec": 0.0038,
     "migrationPerSec": -0.0014,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BJ",
     "name": "Benin",
     "baselinePopulation": 13000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0137,
-    "deathsPerSec": 0.004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0167,
+    "deathsPerSec": 0.0041,
     "migrationPerSec": -0.0013,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BI",
     "name": "Burundi",
     "baselinePopulation": 13000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0156,
-    "deathsPerSec": 0.0042,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0164,
+    "deathsPerSec": 0.004,
     "migrationPerSec": -0.0013,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TN",
     "name": "Tunisia",
     "baselinePopulation": 12000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0139,
-    "deathsPerSec": 0.0038,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.012,
+    "deathsPerSec": 0.0034,
     "migrationPerSec": -0.0012,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BO",
     "name": "Bolivia",
     "baselinePopulation": 12000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0066,
-    "deathsPerSec": 0.0031,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0053,
+    "deathsPerSec": 0.0029,
     "migrationPerSec": -0.0006,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BE",
     "name": "Belgium",
     "baselinePopulation": 11700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0032,
-    "deathsPerSec": 0.0038,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0039,
+    "deathsPerSec": 0.0045,
     "migrationPerSec": 0.00117,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "HT",
     "name": "Haiti",
     "baselinePopulation": 12000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0048,
-    "deathsPerSec": 0.004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0057,
+    "deathsPerSec": 0.0039,
     "migrationPerSec": 0.0012,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CU",
     "name": "Cuba",
     "baselinePopulation": 11000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0052,
-    "deathsPerSec": 0.0034,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0041,
+    "deathsPerSec": 0.003,
     "migrationPerSec": 0.0011,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SS",
     "name": "South Sudan",
     "baselinePopulation": 11000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0132,
-    "deathsPerSec": 0.0036,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.011,
+    "deathsPerSec": 0.0034,
     "migrationPerSec": -0.0011,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "DO",
     "name": "Dominican Republic",
     "baselinePopulation": 11000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0048,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0045,
     "deathsPerSec": 0.0031,
     "migrationPerSec": 0.0011,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CZ",
     "name": "Czech Republic",
     "baselinePopulation": 10800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0036,
-    "deathsPerSec": 0.004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0032,
+    "deathsPerSec": 0.0039,
     "migrationPerSec": 0.00108,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GR",
     "name": "Greece",
     "baselinePopulation": 10300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0036,
-    "deathsPerSec": 0.0034,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0027,
+    "deathsPerSec": 0.0036,
     "migrationPerSec": 0.00103,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "JO",
     "name": "Jordan",
     "baselinePopulation": 11000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0065,
-    "deathsPerSec": 0.0029,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0059,
+    "deathsPerSec": 0.0025,
     "migrationPerSec": -0.00055,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PT",
     "name": "Portugal",
     "baselinePopulation": 10300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0028,
-    "deathsPerSec": 0.0038,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0033,
+    "deathsPerSec": 0.0035,
     "migrationPerSec": 0.00103,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AZ",
     "name": "Azerbaijan",
     "baselinePopulation": 10400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0057,
-    "deathsPerSec": 0.0026,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0047,
+    "deathsPerSec": 0.0028,
     "migrationPerSec": -0.00052,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SE",
     "name": "Sweden",
     "baselinePopulation": 10500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0035,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0036,
     "deathsPerSec": 0.0036,
     "migrationPerSec": 0.00105,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "HN",
     "name": "Honduras",
     "baselinePopulation": 10600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0042,
-    "deathsPerSec": 0.0032,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0037,
+    "deathsPerSec": 0.0034,
     "migrationPerSec": 0.00106,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AE",
     "name": "United Arab Emirates",
     "baselinePopulation": 10000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.006,
-    "deathsPerSec": 0.0025,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.005,
+    "deathsPerSec": 0.0023,
     "migrationPerSec": -0.0005,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "HU",
     "name": "Hungary",
     "baselinePopulation": 9600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0024,
     "deathsPerSec": 0.0036,
     "migrationPerSec": 0.00096,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TJ",
     "name": "Tajikistan",
     "baselinePopulation": 10000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.005,
-    "deathsPerSec": 0.0024,
+    "deathsPerSec": 0.0027,
     "migrationPerSec": -0.0005,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BY",
     "name": "Belarus",
     "baselinePopulation": 9200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0023,
-    "deathsPerSec": 0.0029,
+    "deathsPerSec": 0.0032,
     "migrationPerSec": 0.00092,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AT",
     "name": "Austria",
     "baselinePopulation": 9100000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0027,
-    "deathsPerSec": 0.0033,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0028,
+    "deathsPerSec": 0.003,
     "migrationPerSec": 0.00091,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PG",
     "name": "Papua New Guinea",
     "baselinePopulation": 10000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0047,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.005,
     "deathsPerSec": 0.0024,
     "migrationPerSec": 0.001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "RS",
     "name": "Serbia",
     "baselinePopulation": 8500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0029,
-    "deathsPerSec": 0.0032,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0025,
+    "deathsPerSec": 0.003,
     "migrationPerSec": 0.00085,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "IL",
     "name": "Israel",
     "baselinePopulation": 9800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0042,
-    "deathsPerSec": 0.0026,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0052,
+    "deathsPerSec": 0.0023,
     "migrationPerSec": -0.00049,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CH",
     "name": "Switzerland",
     "baselinePopulation": 8800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0029,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0025,
     "deathsPerSec": 0.003,
     "migrationPerSec": 0.00088,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TG",
     "name": "Togo",
     "baselinePopulation": 9000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0093,
-    "deathsPerSec": 0.0027,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0112,
+    "deathsPerSec": 0.003,
     "migrationPerSec": -0.0009,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SL",
     "name": "Sierra Leone",
     "baselinePopulation": 8700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0107,
-    "deathsPerSec": 0.0027,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0097,
+    "deathsPerSec": 0.0025,
     "migrationPerSec": -0.00087,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "HK",
     "name": "Hong Kong",
     "baselinePopulation": 7500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0043,
-    "deathsPerSec": 0.0017,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0039,
+    "deathsPerSec": 0.0018,
     "migrationPerSec": -0.00038,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LA",
     "name": "Laos",
     "baselinePopulation": 7600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0036,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0044,
     "deathsPerSec": 0.0019,
     "migrationPerSec": -0.00038,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PY",
     "name": "Paraguay",
     "baselinePopulation": 6900000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0028,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0041,
     "deathsPerSec": 0.0017,
     "migrationPerSec": -0.00034,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BG",
     "name": "Bulgaria",
     "baselinePopulation": 6500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0018,
-    "deathsPerSec": 0.0024,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.002,
+    "deathsPerSec": 0.0021,
     "migrationPerSec": 0.00065,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LY",
     "name": "Libya",
     "baselinePopulation": 7000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0082,
-    "deathsPerSec": 0.0021,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0088,
+    "deathsPerSec": 0.0022,
     "migrationPerSec": -0.0007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LB",
     "name": "Lebanon",
     "baselinePopulation": 5400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0028,
-    "deathsPerSec": 0.0014,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0022,
+    "deathsPerSec": 0.0013,
     "migrationPerSec": -0.00027,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NI",
     "name": "Nicaragua",
     "baselinePopulation": 7000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0033,
-    "deathsPerSec": 0.0019,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0023,
+    "deathsPerSec": 0.002,
     "migrationPerSec": 0.0007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KG",
     "name": "Kyrgyzstan",
     "baselinePopulation": 7000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.003,
-    "deathsPerSec": 0.0016,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0036,
+    "deathsPerSec": 0.0019,
     "migrationPerSec": -0.00035,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SV",
     "name": "El Salvador",
     "baselinePopulation": 6300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0028,
-    "deathsPerSec": 0.0021,
+    "deathsPerSec": 0.0017,
     "migrationPerSec": 0.00063,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TM",
     "name": "Turkmenistan",
     "baselinePopulation": 6500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0034,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0032,
     "deathsPerSec": 0.0015,
     "migrationPerSec": -0.00033,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SG",
     "name": "Singapore",
     "baselinePopulation": 6000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0033,
-    "deathsPerSec": 0.0015,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0026,
+    "deathsPerSec": 0.0016,
     "migrationPerSec": -0.0003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "DK",
     "name": "Denmark",
     "baselinePopulation": 5900000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0017,
-    "deathsPerSec": 0.0019,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0019,
+    "deathsPerSec": 0.0022,
     "migrationPerSec": 0.00059,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "FI",
     "name": "Finland",
     "baselinePopulation": 5600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0019,
-    "deathsPerSec": 0.0021,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0014,
+    "deathsPerSec": 0.0019,
     "migrationPerSec": 0.00056,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CG",
     "name": "Congo",
     "baselinePopulation": 6000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0058,
-    "deathsPerSec": 0.0019,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0073,
+    "deathsPerSec": 0.0018,
     "migrationPerSec": -0.0006,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SK",
     "name": "Slovakia",
     "baselinePopulation": 5400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0018,
-    "deathsPerSec": 0.002,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0017,
+    "deathsPerSec": 0.0019,
     "migrationPerSec": 0.00054,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NO",
     "name": "Norway",
     "baselinePopulation": 5500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0015,
-    "deathsPerSec": 0.0021,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0013,
+    "deathsPerSec": 0.002,
     "migrationPerSec": 0.00055,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "OM",
     "name": "Oman",
     "baselinePopulation": 4600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0024,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0023,
     "deathsPerSec": 0.0011,
     "migrationPerSec": -0.00023,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PS",
     "name": "Palestine",
     "baselinePopulation": 5400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0032,
-    "deathsPerSec": 0.0012,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.003,
+    "deathsPerSec": 0.0013,
     "migrationPerSec": -0.00027,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CR",
     "name": "Costa Rica",
     "baselinePopulation": 5200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0019,
-    "deathsPerSec": 0.0017,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0021,
+    "deathsPerSec": 0.0016,
     "migrationPerSec": 0.00052,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LR",
     "name": "Liberia",
     "baselinePopulation": 5400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0066,
-    "deathsPerSec": 0.0015,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0057,
+    "deathsPerSec": 0.0016,
     "migrationPerSec": -0.00054,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "IE",
     "name": "Ireland",
     "baselinePopulation": 5200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0018,
-    "deathsPerSec": 0.0019,
+    "deathsPerSec": 0.0017,
     "migrationPerSec": 0.00052,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CF",
     "name": "Central African Republic",
     "baselinePopulation": 5700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0062,
-    "deathsPerSec": 0.0019,
+    "deathsPerSec": 0.0018,
     "migrationPerSec": -0.00057,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NZ",
     "name": "New Zealand",
     "baselinePopulation": 5200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0031,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0022,
     "deathsPerSec": 0.0014,
     "migrationPerSec": 0.00052,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MR",
     "name": "Mauritania",
     "baselinePopulation": 4900000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0043,
-    "deathsPerSec": 0.0015,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0058,
+    "deathsPerSec": 0.0014,
     "migrationPerSec": -0.00049,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PA",
     "name": "Panama",
     "baselinePopulation": 4500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0016,
-    "deathsPerSec": 0.0013,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0017,
+    "deathsPerSec": 0.0012,
     "migrationPerSec": 0.00045,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KW",
     "name": "Kuwait",
     "baselinePopulation": 4300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0017,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0021,
     "deathsPerSec": 0.001,
     "migrationPerSec": -0.00021,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "HR",
     "name": "Croatia",
     "baselinePopulation": 3800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0013,
     "deathsPerSec": 0.0014,
     "migrationPerSec": 0.00038,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MD",
     "name": "Moldova",
     "baselinePopulation": 3500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0012,
-    "deathsPerSec": 0.0011,
+    "deathsPerSec": 0.0013,
     "migrationPerSec": 0.00035,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GE",
     "name": "Georgia",
     "baselinePopulation": 3700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0015,
-    "deathsPerSec": 0.001,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0016,
+    "deathsPerSec": 0.0009,
     "migrationPerSec": -0.00018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "ER",
     "name": "Eritrea",
     "baselinePopulation": 3700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0049,
-    "deathsPerSec": 0.0012,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0034,
+    "deathsPerSec": 0.0011,
     "migrationPerSec": -0.00037,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "UY",
     "name": "Uruguay",
     "baselinePopulation": 3400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.002,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0017,
     "deathsPerSec": 0.0009,
     "migrationPerSec": -0.00017,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BA",
     "name": "Bosnia and Herzegovina",
     "baselinePopulation": 3200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0011,
-    "deathsPerSec": 0.0011,
+    "deathsPerSec": 0.0012,
     "migrationPerSec": 0.00032,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MN",
     "name": "Mongolia",
     "baselinePopulation": 3400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0016,
-    "deathsPerSec": 0.0008,
+    "deathsPerSec": 0.0009,
     "migrationPerSec": -0.00017,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AM",
     "name": "Armenia",
     "baselinePopulation": 2900000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0015,
-    "deathsPerSec": 0.0007,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0012,
+    "deathsPerSec": 0.0008,
     "migrationPerSec": -0.00015,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "JM",
     "name": "Jamaica",
     "baselinePopulation": 2800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0011,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0012,
     "deathsPerSec": 0.0008,
     "migrationPerSec": 0.00028,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "QA",
     "name": "Qatar",
     "baselinePopulation": 2700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0015,
-    "deathsPerSec": 0.0006,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0016,
+    "deathsPerSec": 0.0007,
     "migrationPerSec": -0.00014,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AL",
     "name": "Albania",
     "baselinePopulation": 2800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.001,
-    "deathsPerSec": 0.0011,
+    "deathsPerSec": 0.001,
     "migrationPerSec": 0.00028,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LT",
     "name": "Lithuania",
     "baselinePopulation": 2800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.001,
-    "deathsPerSec": 0.0011,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0007,
+    "deathsPerSec": 0.001,
     "migrationPerSec": 0.00028,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NA",
     "name": "Namibia",
     "baselinePopulation": 2600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0029,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0032,
     "deathsPerSec": 0.0008,
     "migrationPerSec": -0.00026,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GM",
     "name": "Gambia",
     "baselinePopulation": 2700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0035,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0034,
     "deathsPerSec": 0.0008,
     "migrationPerSec": -0.00027,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BW",
     "name": "Botswana",
     "baselinePopulation": 2600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0027,
-    "deathsPerSec": 0.0007,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0024,
+    "deathsPerSec": 0.0008,
     "migrationPerSec": -0.00026,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GA",
     "name": "Gabon",
     "baselinePopulation": 2400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0031,
-    "deathsPerSec": 0.0008,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0028,
+    "deathsPerSec": 0.0007,
     "migrationPerSec": -0.00024,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LS",
     "name": "Lesotho",
     "baselinePopulation": 2300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0024,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0029,
     "deathsPerSec": 0.0007,
     "migrationPerSec": -0.00023,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SI",
     "name": "Slovenia",
     "baselinePopulation": 2100000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0005,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0007,
     "deathsPerSec": 0.0008,
     "migrationPerSec": 0.00021,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LV",
     "name": "Latvia",
     "baselinePopulation": 1854000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0006,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0007,
     "deathsPerSec": 0.0007,
     "migrationPerSec": 0.00019,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MK",
     "name": "North Macedonia",
     "baselinePopulation": 2000000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0007,
-    "deathsPerSec": 0.0007,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0006,
+    "deathsPerSec": 0.0008,
     "migrationPerSec": 0.0002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GW",
     "name": "Guinea-Bissau",
     "baselinePopulation": 2100000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0019,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.002,
     "deathsPerSec": 0.0006,
     "migrationPerSec": -0.00021,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "XK",
     "name": "Kosovo",
     "baselinePopulation": 1800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0006,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0005,
     "deathsPerSec": 0.0006,
     "migrationPerSec": 0.00018,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BH",
     "name": "Bahrain",
     "baselinePopulation": 1500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0007,
-    "deathsPerSec": 0.0003,
+    "deathsPerSec": 0.0004,
     "migrationPerSec": -0.00007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GQ",
     "name": "Equatorial Guinea",
     "baselinePopulation": 1700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0021,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0017,
     "deathsPerSec": 0.0005,
     "migrationPerSec": -0.00017,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TT",
     "name": "Trinidad and Tobago",
     "baselinePopulation": 1500000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0005,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0006,
     "deathsPerSec": 0.0004,
     "migrationPerSec": 0.00015,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "EE",
     "name": "Estonia",
     "baselinePopulation": 1344000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0003,
     "deathsPerSec": 0.0004,
     "migrationPerSec": 0.00013,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TL",
     "name": "Timor-Leste",
     "baselinePopulation": 1300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0005,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0006,
     "deathsPerSec": 0.0003,
     "migrationPerSec": -0.00007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MU",
     "name": "Mauritius",
     "baselinePopulation": 1300000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0012,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0013,
     "deathsPerSec": 0.0004,
     "migrationPerSec": -0.00013,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CY",
     "name": "Cyprus",
     "baselinePopulation": 1371000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0005,
     "deathsPerSec": 0.0005,
     "migrationPerSec": 0.00014,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SZ",
     "name": "Eswatini",
     "baselinePopulation": 1200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0012,
-    "deathsPerSec": 0.0004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0015,
+    "deathsPerSec": 0.0003,
     "migrationPerSec": -0.00012,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "DJ",
     "name": "Djibouti",
     "baselinePopulation": 1100000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0012,
     "deathsPerSec": 0.0003,
     "migrationPerSec": -0.00011,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "FJ",
     "name": "Fiji",
     "baselinePopulation": 930000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0005,
-    "deathsPerSec": 0.0002,
+    "deathsPerSec": 0.0003,
     "migrationPerSec": 0.00009,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "RE",
     "name": "Réunion",
     "baselinePopulation": 980000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0012,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0009,
     "deathsPerSec": 0.0003,
     "migrationPerSec": -0.0001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GY",
     "name": "Guyana",
     "baselinePopulation": 800000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0003,
     "deathsPerSec": 0.0002,
     "migrationPerSec": -0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BT",
     "name": "Bhutan",
     "baselinePopulation": 780000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0004,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0003,
     "deathsPerSec": 0.0002,
     "migrationPerSec": -0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SB",
     "name": "Solomon Islands",
     "baselinePopulation": 740000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0004,
     "deathsPerSec": 0.0002,
     "migrationPerSec": 0.00007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MO",
     "name": "Macau",
     "baselinePopulation": 700000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0003,
     "deathsPerSec": 0.0002,
     "migrationPerSec": -0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LU",
     "name": "Luxembourg",
     "baselinePopulation": 680000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0003,
     "migrationPerSec": 0.00007,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "ME",
     "name": "Montenegro",
     "baselinePopulation": 600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0001,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0002,
     "migrationPerSec": 0.00006,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SR",
     "name": "Suriname",
     "baselinePopulation": 620000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0003,
-    "deathsPerSec": 0.0001,
+    "deathsPerSec": 0.0002,
     "migrationPerSec": -0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CV",
     "name": "Cabo Verde",
     "baselinePopulation": 600000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
-    "birthsPerSec": 0.0007,
+    "baselineAt": "2026-03-29T09:20:42.186Z",
+    "birthsPerSec": 0.0006,
     "deathsPerSec": 0.0002,
     "migrationPerSec": -0.00006,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MT",
     "name": "Malta",
     "baselinePopulation": 530000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0002,
     "migrationPerSec": 0.00005,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MV",
     "name": "Maldives",
     "baselinePopulation": 520000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0003,
     "deathsPerSec": 0.0001,
     "migrationPerSec": -0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BN",
     "name": "Brunei",
     "baselinePopulation": 450000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0001,
     "migrationPerSec": -0.00002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BS",
     "name": "Bahamas",
     "baselinePopulation": 410000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BZ",
     "name": "Belize",
     "baselinePopulation": 400000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "IS",
     "name": "Iceland",
     "baselinePopulation": 398000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
-    "deathsPerSec": 0.0002,
+    "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00004,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "VU",
     "name": "Vanuatu",
     "baselinePopulation": 330000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0002,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BB",
     "name": "Barbados",
     "baselinePopulation": 290000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NC",
     "name": "New Caledonia",
     "baselinePopulation": 290000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PF",
     "name": "French Polynesia",
     "baselinePopulation": 280000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00003,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "WS",
     "name": "Samoa",
     "baselinePopulation": 200000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LC",
     "name": "Saint Lucia",
     "baselinePopulation": 180000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GU",
     "name": "Guam",
     "baselinePopulation": 170000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CW",
     "name": "Curaçao",
     "baselinePopulation": 150000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00002,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KI",
     "name": "Kiribati",
     "baselinePopulation": 130000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GD",
     "name": "Grenada",
     "baselinePopulation": 125000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "FM",
     "name": "Micronesia",
     "baselinePopulation": 115000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "VC",
     "name": "Saint Vincent and the Grenadines",
     "baselinePopulation": 110000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TO",
     "name": "Tonga",
     "baselinePopulation": 105000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SC",
     "name": "Seychelles",
     "baselinePopulation": 100000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": -0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AG",
     "name": "Antigua and Barbuda",
     "baselinePopulation": 94000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "IM",
     "name": "Isle of Man",
     "baselinePopulation": 84000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AD",
     "name": "Andorra",
     "baselinePopulation": 80000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "DM",
     "name": "Dominica",
     "baselinePopulation": 72000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "BM",
     "name": "Bermuda",
     "baselinePopulation": 64000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GG",
     "name": "Guernsey",
     "baselinePopulation": 63000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GL",
     "name": "Greenland",
     "baselinePopulation": 56000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "FO",
     "name": "Faroe Islands",
     "baselinePopulation": 53000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0.00001,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "KN",
     "name": "Saint Kitts and Nevis",
     "baselinePopulation": 47000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TC",
     "name": "Turks and Caicos Islands",
     "baselinePopulation": 45000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AS",
     "name": "American Samoa",
     "baselinePopulation": 44000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MH",
     "name": "Marshall Islands",
     "baselinePopulation": 42000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "LI",
     "name": "Liechtenstein",
     "baselinePopulation": 39000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "MC",
     "name": "Monaco",
     "baselinePopulation": 36000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "SM",
     "name": "San Marino",
     "baselinePopulation": 34000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "GI",
     "name": "Gibraltar",
     "baselinePopulation": 33000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "VG",
     "name": "British Virgin Islands",
     "baselinePopulation": 31000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "PW",
     "name": "Palau",
     "baselinePopulation": 18000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "CK",
     "name": "Cook Islands",
     "baselinePopulation": 17000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "AI",
     "name": "Anguilla",
     "baselinePopulation": 15000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "TV",
     "name": "Tuvalu",
     "baselinePopulation": 11000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "NR",
     "name": "Nauru",
     "baselinePopulation": 10000,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   },
   {
     "code": "VA",
     "name": "Vatican City",
     "baselinePopulation": 800,
-    "baselineAt": "2025-12-12T11:02:41.481Z",
+    "baselineAt": "2026-03-29T09:20:42.186Z",
     "birthsPerSec": 0.0001,
     "deathsPerSec": 0.0001,
     "migrationPerSec": 0,
     "meta": {
       "source": "LivePop Global Index",
-      "lastUpdatedAt": "2025-12-12T11:02:41.481Z"
+      "lastUpdatedAt": "2026-03-29T09:20:42.186Z"
     }
   }
 ]

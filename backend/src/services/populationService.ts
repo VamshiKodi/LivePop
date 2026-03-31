@@ -31,9 +31,15 @@ export const computePopulation = (region: IRegion, now: Date = new Date()): numb
 
 /**
  * Get a snapshot of a region with computed population
+ * Supports both code (uppercase) and name (case-insensitive)
  */
-export const getRegionSnapshot = async (regionCode: string): Promise<RegionSnapshot | null> => {
-    const region = await Region.findOne({ code: regionCode.toUpperCase() });
+export const getRegionSnapshot = async (identifier: string): Promise<RegionSnapshot | null> => {
+    const region = await Region.findOne({
+        $or: [
+            { code: identifier.toUpperCase() },
+            { name: { $regex: new RegExp(`^${identifier}$`, 'i') } }
+        ]
+    });
 
     if (!region) {
         return null;

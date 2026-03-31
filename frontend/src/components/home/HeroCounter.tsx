@@ -8,6 +8,7 @@ interface HeroCounterProps {
     label?: string;
     isConnected?: boolean;
     flagCode?: string;
+    debugInfo?: string;
 }
 
 interface IncrementBadge {
@@ -20,6 +21,7 @@ const HeroCounter: React.FC<HeroCounterProps> = ({
     label = "Current World Population",
     isConnected = true,
     flagCode,
+    debugInfo,
 }) => {
     const prevPopRef = useRef<number | undefined>(undefined);
     const [badges, setBadges] = useState<IncrementBadge[]>([]);
@@ -49,6 +51,8 @@ const HeroCounter: React.FC<HeroCounterProps> = ({
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-accent/15 blur-[140px] rounded-full pointer-events-none -z-10" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent2/10 blur-[100px] rounded-full pointer-events-none -z-10" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[200px] bg-accent/20 blur-[60px] rounded-full pointer-events-none -z-10" />
+
+
 
             {/* LIVE badge */}
             <motion.div

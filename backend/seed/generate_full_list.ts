@@ -20,6 +20,7 @@ const getStatsStr = (region: string) => {
 };
 
 const countries = [
+    { code: 'WORLD', name: 'World', pop: 8240000000, region: 'Global' },
     { code: 'IN', name: 'India', pop: 1463865525, region: 'Asia' },
     { code: 'CN', name: 'China', pop: 1416096094, region: 'Asia' },
     { code: 'US', name: 'United States', pop: 347275807, region: 'North America' },

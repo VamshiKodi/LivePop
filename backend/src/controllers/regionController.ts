@@ -44,9 +44,12 @@ export const getAllRegions = async (req: AuthRequest, res: Response) => {
 export const getRegionByCode = async (req: AuthRequest, res: Response) => {
     try {
         const { code } = req.params;
-        const snapshot = await getRegionSnapshot(code);
+        // Use a simple log since logger might not be fully initialized or causing issues in some contexts
+        console.log(`Fetching region details for code: ${code}`);
+        const snapshot = await getRegionSnapshot(code.toUpperCase());
 
         if (!snapshot) {
+            console.warn(`Region not found in DB: ${code}`);
             return sendError(res, 'Region not found', 404);
         }
 

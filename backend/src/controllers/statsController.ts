@@ -44,8 +44,14 @@ export const getLeaderboard = async (req: Request, res: Response) => {
             return {
                 code: region.code,
                 name: region.name,
-                population: currentPop,
-                growthRate: annualGrowth
+                populationNow: currentPop,   // ← renamed from `population` to match frontend RegionData
+                growthRate: annualGrowth,
+                birthsPerSec: region.birthsPerSec,
+                deathsPerSec: region.deathsPerSec,
+                migrationPerSec: region.migrationPerSec,
+                demographics: region.demographics,
+                density: region.density,
+                serverTime: now,
             };
         });
 
@@ -62,7 +68,7 @@ export const getLeaderboard = async (req: Request, res: Response) => {
 
         // Most Populous
         const topPopulous = [...stats]
-            .sort((a, b) => b.population - a.population)
+            .sort((a, b) => b.populationNow - a.populationNow)
             .slice(0, 10);
 
         return sendSuccess(res, {
@@ -87,7 +93,12 @@ export const getHealth = (req: Request, res: Response) => {
 export const getProjection = async (req: Request, res: Response) => {
     try {
         const { code } = req.params;
-        const region = await Region.findOne({ code: code.toUpperCase() });
+        const region = await Region.findOne({
+            $or: [
+                { code: code.toUpperCase() },
+                { name: { $regex: new RegExp(`^${code}$`, 'i') } }
+            ]
+        });
 
         if (!region) {
             return sendError(res, 'Region not found', 404);

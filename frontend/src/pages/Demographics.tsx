@@ -26,16 +26,25 @@ const Demographics: React.FC = () => {
                 const regions = await PopulationService.getAllRegions();
                 // Transform API data to current shape
                 const mappedData: CountryData[] = regions
-                    .filter(r => r.demographics) // Only regions with demo data
-                    .map(r => ({
-                        code: r.code,
-                        name: r.name,
-                        youth: r.demographics!.youth,
-                        working: r.demographics!.working,
-                        elderly: r.demographics!.elderly,
-                        density: r.density || 0,
-                        pop: r.populationNow
-                    }));
+                    .filter(r => r.demographics || r.code === 'WORLD') // Ensure World is included even if demographics are missing in DB
+                    .map(r => {
+                        const isWorld = r.code === 'WORLD';
+                        // Reliable global averages if missing from seed
+                        const youth = isWorld && (!r.demographics?.youth) ? 25 : (r.demographics?.youth || 0);
+                        const working = isWorld && (!r.demographics?.working) ? 65 : (r.demographics?.working || 0);
+                        const elderly = isWorld && (!r.demographics?.elderly) ? 10 : (r.demographics?.elderly || 0);
+                        const density = isWorld && (!r.density) ? 60 : (r.density || 0);
+
+                        return {
+                            code: r.code,
+                            name: r.name,
+                            youth,
+                            working,
+                            elderly,
+                            density,
+                            pop: r.populationNow
+                        };
+                    });
 
                 // Sort by population by default
                 mappedData.sort((a, b) => b.pop - a.pop);
@@ -309,7 +318,7 @@ const Demographics: React.FC = () => {
                                         <YAxis stroke="#9ca3af" tickFormatter={(v) => formatPop(v)} />
                                         <Tooltip
                                             contentStyle={{ backgroundColor: '#1f2937', border: '1px solid #374151', borderRadius: '8px' }}
-                                            formatter={(value: number) => [formatPop(value), 'Population']}
+                                            formatter={(value: any) => [formatPop(Number(value) || 0), 'Population']}
                                         />
                                         <Area
                                             type="monotone"
