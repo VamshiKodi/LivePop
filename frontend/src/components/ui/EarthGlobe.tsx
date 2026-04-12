@@ -6,10 +6,10 @@ import * as THREE from 'three';
 const Earth = () => {
     const meshRef = useRef<THREE.Mesh>(null);
     
-    // Load a realistic Earth texture (blue marble)
+    // Load a realistic Earth texture from a more reliable CDN (jsDelivr)
     const colorMap = useLoader(
         THREE.TextureLoader,
-        'https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/planets/earth_atmos_2048.jpg'
+        'https://cdn.jsdelivr.net/gh/mrdoob/three.js@dev/examples/textures/planets/earth_atmos_2048.jpg'
     );
 
     useFrame(({ clock }) => {

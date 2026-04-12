@@ -53,15 +53,21 @@ export const getRegionByCode = async (req: AuthRequest, res: Response) => {
             return sendError(res, 'Region not found', 404);
         }
 
-        // Calculate rank
-        // Count how many regions have a higher baseline population
-        // (Using baseline is faster and stable enough for ranking)
-        const rank = await Region.countDocuments({
-            baselinePopulation: { $gt: snapshot.baselinePopulation },
-            code: { $ne: 'WORLD' } // Exclude WORLD from ranking
-        }) + 1;
+        // Calculate rank (best-effort)
+        // If Mongo is temporarily unavailable, we still want to return the snapshot.
+        let rank: number | undefined;
+        try {
+            // Count how many regions have a higher baseline population
+            // (Using baseline is faster and stable enough for ranking)
+            rank = (await Region.countDocuments({
+                baselinePopulation: { $gt: snapshot.baselinePopulation },
+                code: { $ne: 'WORLD' } // Exclude WORLD from ranking
+            })) + 1;
+        } catch (rankError) {
+            console.warn('Failed to compute rank (returning snapshot without rank):', rankError);
+        }
 
-        return sendSuccess(res, { ...snapshot, rank });
+        return sendSuccess(res, rank !== undefined ? { ...snapshot, rank } : snapshot);
     } catch (error: any) {
         return sendError(res, error.message || 'Failed to fetch region', 500);
     }
